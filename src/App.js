@@ -6,12 +6,12 @@ import './App.css';
 function App() {
  return(
   <BrowserRouter>
-      <Routes basename={process.env.PUBLIC_URL}>
+      <Routes>
         <Route  path="/" element={<Home/>} />
         <Route path="/settings" element={<Settings/>} />
         <Route path="/game" element={<Game/>} />
       </Routes>
   </BrowserRouter>
 );
- }
+}
 export default App;
