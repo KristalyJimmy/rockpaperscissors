@@ -6,7 +6,7 @@ import './App.css';
 function App() {
  return(
   <BrowserRouter>
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route  path="/" element={<Home/>} />
         <Route path="/settings" element={<Settings/>} />
         <Route path="/game" element={<Game/>} />
