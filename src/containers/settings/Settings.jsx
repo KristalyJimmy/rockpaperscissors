@@ -8,11 +8,13 @@ const Settings = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const url = `/game?player1=${encodeURIComponent(player1Name)}&player2=${encodeURIComponent(player2Name)}`;
-    navigate(url);
+    if (player1Name.trim() === '' || player2Name.trim() === '') {
+      alert('Please enter both player names.');
+    } else {
+      const url = `/game?player1=${encodeURIComponent(player1Name)}&player2=${encodeURIComponent(player2Name)}`;
+      navigate(url);
+    }
   };
-  
-
   return (
     <div className="settings-container">
       <h1 className="settings-title">Setting players names</h1>

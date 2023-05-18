@@ -1,6 +1,5 @@
 body {
     background-image: url('../../assets/homebg.jpg');
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -92,5 +91,46 @@ h1 {
     color: whitesmoke;
     width: 139px;
 }
-
+@media screen and (max-width: 1480px) {
+    h1 {
+        font-size: 44px;
+    }
+      
+}
+@media screen and (max-width: 1370px) {
+    h1 {
+        font-size: 38px;
+        position: relative;
+    }
+ 
+}
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 32px;
+    }
+    .back-button,
+    .submitButton {
+        padding: 15px 25px;
+        font-size: 22px;
+        width: 100px;
+    }
+    .label {
+        font-size: 22px;
+    }
+    .settings-form input {
+        width: 150px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 24px;
+    }
+    .back-button,
+    .submitButton {
+        padding: 15px 25px;
+        font-size: 22px;
+        width: 100px;
+    }
+}
   
