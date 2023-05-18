@@ -1,0 +1,134 @@
+.game-images img {
+    width: 290px;
+    height: 240px;
+    display: inline-block;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 10px;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .game-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    
+  }
+  .playerName {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'League Gothic', sans-serif;
+    letter-spacing: 2px;
+    padding: 5px;
+    
+  }
+  .game-card {
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 80px;
+  }
+  
+  .game-card-header {
+    text-align: center;
+    width: 215px;
+    border-radius: 10px;
+    background: rgba(255, 55, 255, 0.6);
+    color: whitesmoke;
+
+  }
+  .list-group {
+    position: relative;
+    right: 10px;
+  }
+  .list-group-item {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    margin-bottom: 4px;
+    background: rgba(255, 55, 255, 0.6);
+    color: whitesmoke;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    
+    
+  }
+  .winner {
+    color: lime;
+    background: rgba(255, 55, 255, 0.6);
+    box-shadow: 0 0 15px rgba(255, 55, 255, 1);
+  }
+  .loser {
+    color: red;
+  }
+  .draft {
+    color: white;
+  }
+  .list-group-item:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .list-group-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .game-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+    
+.game-back-button {
+    position: relative;
+    right: 7px;
+    padding: 10px 30px;
+    font-size: 25px;
+    font-family: 'League Gothic', sans-serif;
+    background: rgba(255, 55, 255, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+.game-back-button:hover {
+    background: rgba(255, 55, 255, 0.6);
+    box-shadow: 0 0 15px rgba(255, 55, 255, 1);
+    letter-spacing: 1px;
+    transition:  0.1s ease;
+    letter-spacing: 4px;
+}
+  
+  .play-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    background: rgba(255, 55, 255, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 32px;
+    color: whitesmoke;
+  }
+  
+  .play-button:hover {
+    background: rgba(255, 55, 255, 0.6);
+    box-shadow: 0 0 15px rgba(255, 55, 255, 1);
+    letter-spacing: 1px;
+    transition: all 0.1s ease;
+  }
+  
