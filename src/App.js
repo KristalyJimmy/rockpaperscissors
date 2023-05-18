@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
  return(
-  <BrowserRouter>
+  <BrowserRouter basename="/rockpaperscissors">
       <Routes>
         <Route  path="/" element={<Home/>} />
         <Route path="/settings" element={<Settings/>} />
